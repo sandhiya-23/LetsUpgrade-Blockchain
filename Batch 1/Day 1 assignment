@@ -1,0 +1,24 @@
+1.What is your Understanding of Blockchain ?                                                                                                                               
+  Blockchain is a growing list of records that are linked using cryptography. Blockchain is a type of distributed ledger that records the transaction data which is resistant to modifications.
+  Each block has its own hash code i.e digital signature. It is immutable and is not possible to hack the network.
+  
+2.What is the core problem Blockchain trying to solve ?
+  Authencity , Security , To remove the third party between the transactions.
+  
+3.What are the few features Blockchain will give you ?
+  Tamper-Proof
+  Immutability
+  Decentralized network
+  Verifiable
+  Unchangable
+  
+4.What are all the things a Block contains ?
+  Previous hask key
+  Mining key
+  Block Number
+  Transaction record
+  
+5.How is the verifiability of Blockchain can be attained ?
+  There are n no.of nodes(computer) connected in a decentralized network. Each node verify the record and generate the hask code , if all the nodes generates the same hash then the block is verified and added to the chain.If any of the node has different hash it means that the data of the b,ock has been corrupted and it needto be changed.
+  
+  
