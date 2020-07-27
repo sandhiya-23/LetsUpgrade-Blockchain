@@ -1,0 +1,31 @@
+pragma solidity 0.4.17;
+
+contract ReportCard{
+    
+    string public name;
+    int public rollno;
+    int public batch;
+    int public mathsmark;
+    int public sciencemark;
+    int public socialmark;
+    int public languagemark;
+    
+    function ReportCard (string newName, int newRollNo, int newBatch, int newMathsMark, int newScienceMark, int newSocialMark, int newLanguageMark) public {
+        
+        name = newName;
+        rollno = newRollNo;
+        batch = newBatch;
+        mathsmark = newMathsMark;
+        sciencemark = newScienceMark;
+        socialmark = newSocialMark;
+        languagemark = newLanguageMark;
+    }
+
+    
+    
+    function getReportCardCurrentDetails() public view returns (string newName, int newRollNo, int newBatch, int newMathsMark, int newScienceMark, int newSocialMark, int newLanguageMark){
+        return(name,rollno,batch,mathsmark,sciencemark,socialmark,languagemark);
+    }
+    
+    
+}
